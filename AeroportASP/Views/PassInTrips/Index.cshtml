@@ -1,0 +1,41 @@
+﻿@model IEnumerable<AeroportASP.Models.PassInTrip>
+
+@{
+    ViewData["Title"] = "Passenger In Trip";
+}
+
+<h1>Passenger In Trip</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Place)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPsgNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TripNoNavigation)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Place)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPsgNavigation.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TripNoNavigation.TripNo)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

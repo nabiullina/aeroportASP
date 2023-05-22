@@ -1,0 +1,36 @@
+﻿@model AeroportASP.Models.Trip
+
+@{
+    ViewData["Title"] = "Passengers";
+}
+
+<h1>Trip's passengers</h1>
+<h2>@Html.DisplayFor(item=>Model.TownFrom) @Html.DisplayFor(item=>Model.TownTo) @Html.DisplayFor(item=>Model.TimeOut) @Html.DisplayFor(item=>Model.IdCompNavigation.Name)</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Purchase Date
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.PassInTrips) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPsgNavigation.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index">Back To Trips List</a>

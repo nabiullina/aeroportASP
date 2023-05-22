@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+            <div class="row row-cols-3">
+                <div class="col">
+                    <a class="card shadow-sm" asp-action="Index" asp-controller="Passengers">
+                        <img src="~/3552370.jpg"/>
+                        <div class="card-body">
+                            <p class="card-text"><h3>Passengers</h3></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="card shadow-sm" asp-action="Index" asp-controller="Companies">
+                        <img src="~/3529197.jpg" />
+                        <div class="card-body">
+                            <p class="card-text"><h3>Companies</h3></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="card shadow-sm" asp-action="Index" asp-controller="Trips">
+                        <img src="~/flights.jpg" />
+                        <div class="card-body">
+                            <p class="card-text"><h3>Trips</h3></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
