@@ -12,10 +12,12 @@ namespace AeroportASP.Models
             PassInTrips = new HashSet<PassInTrip>();
         }
 
-        [Display(Name = "Passeneger ID")]
+        [Display(Name = "Passeneger's id")]
         public int IdPsg { get; set; }
+        [Display(Name = "Passeneger's name")]
         public string Name { get; set; } = null!;
 
+        [Display(Name = "Passeneger's trips")]
         public virtual ICollection<PassInTrip> PassInTrips { get; set; }
     }
 }
