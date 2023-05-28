@@ -33,24 +33,6 @@ namespace AeroportASP.Controllers
                           Problem("Entity set 'aeroContext.Passengers'  is null.");
         }
 
-        // GET: Passengers/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Passengers == null)
-            {
-                return NotFound();
-            }
-
-            var passenger = await _context.Passengers
-                .FirstOrDefaultAsync(m => m.IdPsg == id);
-            if (passenger == null)
-            {
-                return NotFound();
-            }
-
-            return View(passenger);
-        }
-
         // GET: Passengers/Create
         public IActionResult Create()
         {

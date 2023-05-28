@@ -35,6 +35,9 @@
         @foreach (var item in Model.PassInTrips) {
             <tr>
                 <td>
+                    @Html.DisplayFor(modelItem => item.TripNo)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.TripNoNavigation.TimeOut)
                 </td>
                 <td>
@@ -54,6 +57,9 @@
                 <td>
 
                     @Html.DisplayFor(modelItem => item.TripNoNavigation.IdCompNavigation.Name)
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-controller="PassInTrips" asp-route-id_psg="@item.IdPsg" asp-route-trip_no="@item.TripNo">Remove</a>
                 </td>
             </tr>
         }

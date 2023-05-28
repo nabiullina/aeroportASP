@@ -33,24 +33,6 @@ namespace AeroportASP.Controllers
                           Problem("Entity set 'aeroContext.Companies'  is null.");
         }
 
-        // GET: Companies/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Companies == null)
-            {
-                return NotFound();
-            }
-
-            var company = await _context.Companies
-                .FirstOrDefaultAsync(m => m.IdComp == id);
-            if (company == null)
-            {
-                return NotFound();
-            }
-
-            return View(company);
-        }
-
         // GET: Companies/Create
         public IActionResult Create()
         {

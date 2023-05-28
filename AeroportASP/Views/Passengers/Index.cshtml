@@ -25,9 +25,10 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPsg">Edit</a> |
-                    <a asp-action="Trips" asp-route-id="@item.IdPsg">Trips</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdPsg">Delete</a> 
+                <a asp-action="Edit" asp-route-id="@item.IdPsg"  class="btn btn-outline-info">Edit</a> |
+                <a asp-action="Trips" asp-route-id="@item.IdPsg" class="btn btn-outline-info">Trips</a> |
+                <a asp-action="CreateForPsg" asp-controller="PassInTrips" asp-route-id_psg="@item.IdPsg" class="btn btn-outline-success">Add to a trip</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdPsg" class="btn btn-outline-danger">Delete</a>
             </td>
         </tr>
 }

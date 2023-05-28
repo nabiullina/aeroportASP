@@ -9,6 +9,18 @@
 <p>
     <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
+
+<form method="get">
+    <div class="row">
+        <div class="form-inline form-group col mb-1">
+            <label class="control-label">Company: 
+                <select name="id_comp" asp-items="ViewBag.Companies" class="form-control"></select>
+            </label>
+        </div>
+    </div>
+            <input type="submit" value="View" class="btn btn-primary"/>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -61,9 +73,10 @@
                 @Html.DisplayFor(modelItem => item.IdCompNavigation.Name)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.TripNo">Edit</a> |
-                <a asp-action="Passengers" asp-route-id="@item.TripNo">Passengers</a> |
-                <a asp-action="Delete" asp-route-id="@item.TripNo">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.TripNo" class="btn btn-outline-info">Edit</a> |
+                <a asp-action="Passengers" asp-route-id="@item.TripNo" class="btn btn-outline-info">Passengers</a> |
+                <a asp-action="CreateForTrip" asp-controller="PassInTrips" asp-route-trip_no="@item.TripNo" class="btn btn-outline-success">Add passenger</a> |
+                <a asp-action="Delete" asp-route-id="@item.TripNo" class="btn btn-outline-danger">Delete</a>
             </td>
         </tr>
 }

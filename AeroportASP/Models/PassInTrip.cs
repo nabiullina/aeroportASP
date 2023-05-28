@@ -10,7 +10,7 @@ namespace AeroportASP.Models
         public int IdPsg { get; set; }
         public string Place { get; set; } = null!;
 
-        public virtual Passenger IdPsgNavigation { get; set; } = null!;
-        public virtual Trip TripNoNavigation { get; set; } = null!;
+        public virtual Passenger? IdPsgNavigation { get; set; } = null!;
+        public virtual Trip? TripNoNavigation { get; set; } = null!;
     }
 }

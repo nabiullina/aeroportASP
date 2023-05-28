@@ -26,29 +26,20 @@ namespace AeroportASP.Controllers
         }
 
         // GET: Trips
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id_comp)
         {
-            var aeroContext = _context.Trips.Include(t => t.IdCompNavigation);
-            return View(await aeroContext.ToListAsync());
-        }
-
-        // GET: Trips/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Trips == null)
+            IQueryable<Trip> trips = _context.Trips.Include(t => t.IdCompNavigation);
+            if (id_comp != null && id_comp != -1)
             {
-                return NotFound();
+                trips = trips.Where(t=>t.IdComp==id_comp);
             }
+            
+            var companies = await _context.Companies.ToListAsync();
+            companies.Insert(0, new Company { Name = "All", IdComp = -1 });
+            ViewData["Companies"] = new SelectList(companies, "IdComp", "Name");
 
-            var trip = await _context.Trips
-                .Include(t => t.IdCompNavigation)
-                .FirstOrDefaultAsync(m => m.TripNo == id);
-            if (trip == null)
-            {
-                return NotFound();
-            }
-
-            return View(trip);
+            
+            return View(await trips.ToListAsync());
         }
 
         // GET: Trips/Create

@@ -9,109 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AeroportASP
 build_property.RootNamespace = AeroportASP
-build_property.ProjectDir = D:\source\repos\AeroportASP\AeroportASP\
+build_property.ProjectDir = D:\source\repos\aeroASP\AeroportASP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\source\repos\AeroportASP\AeroportASP
+build_property.MSBuildProjectDirectory = D:\source\repos\aeroASP\AeroportASP
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Companies/Create.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Companies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Companies/Delete.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Companies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Companies/Edit.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Companies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Companies/Index.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Companies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Companies/Trips.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Companies/Trips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXFRyaXBzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Home/Index.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Passengers/Create.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Passengers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2Vyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Passengers/Delete.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Passengers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2Vyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Passengers/Edit.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Passengers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2Vyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Passengers/Index.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Passengers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Passengers/Trips.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Passengers/Trips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2Vyc1xUcmlwcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/PassInTrips/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcQ3JlYXRlLmNzaHRtbA==
+[D:/source/repos/aeroASP/AeroportASP/Views/PassInTrips/CreateForPsg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcQ3JlYXRlRm9yUHNnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/PassInTrips/Delete.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/PassInTrips/CreateForTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcQ3JlYXRlRm9yVHJpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/source/repos/aeroASP/AeroportASP/Views/PassInTrips/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/PassInTrips/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/source/repos/AeroportASP/AeroportASP/Views/PassInTrips/Index.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/PassInTrips/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc0luVHJpcHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Shared/Exception.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Shared/Exception.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEV4Y2VwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Trips/Create.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Trips/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Trips/Delete.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Trips/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Trips/Edit.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Trips/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Trips/Index.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Trips/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Trips/Passengers.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Trips/Passengers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcHNcUGFzc2VuZ2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/_ViewImports.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/_ViewStart.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/source/repos/AeroportASP/AeroportASP/Views/Shared/_Layout.cshtml]
+[D:/source/repos/aeroASP/AeroportASP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-26wpb5obok
